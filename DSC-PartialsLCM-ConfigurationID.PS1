@@ -8,7 +8,7 @@ configuration PullClientConfigNames
             RefreshMode = 'Pull'
             RefreshFrequencyMins = 30
             RebootNodeIfNeeded = $true
-            ConfigurationID = $AllNodes.ConfigurationID
+            ConfigurationID = $Node.ConfigurationID
         }
         ConfigurationRepositoryWeb Master-PullSrv
         {
